@@ -22,8 +22,8 @@ class Program
             switch (opcao)
             {
                 case "1":
-                    Console.Write("ID do Produto: ");
-                    int id = int.Parse(Console.ReadLine()!);
+                    int id = (produtos.Count == 0) ? 1 : produtos.Max(p => p.Id) + 1;
+
 
                     Console.Write("Nome do Produto: ");
                     string nome = Console.ReadLine()!;

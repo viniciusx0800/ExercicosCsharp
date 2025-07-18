@@ -13,5 +13,10 @@
     "Id": 3,
     "Nome": "wd 420",
     "Preco": 25.80
+  },
+  {
+    "Id": 4,
+    "Nome": "frango assado",
+    "Preco": 30.00
   }
 ]
