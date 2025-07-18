@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "Id": 1,
+    "Nome": "Produto 1",
+    "Preco": 149.99
+  },
+  {
+    "Id": 2,
+    "Nome": "oleo de motor",
+    "Preco": 15.99
+  }
+]
