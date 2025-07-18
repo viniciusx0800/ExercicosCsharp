@@ -1,11 +1,5 @@
 ﻿using Atividade01.Models;
 using Atividade01.Services;
-using System;  
-
-
-
-using Atividade01.Models;
-using Atividade01.Services;
 
 class Program
 {
@@ -18,7 +12,7 @@ class Program
         while (executando)
         {
             Console.Clear();
-            Console.WriteLine("==== MENU DE PRODUTOS ====");
+            Console.WriteLine(">>>>>>>> MENU DE PRODUTOS >>>>>>>>>");
             Console.WriteLine("1 - Adicionar Produto");
             Console.WriteLine("2 - Listar Produtos");
             Console.WriteLine("0 - Sair");
@@ -46,7 +40,7 @@ class Program
                     break;
 
                 case "2":
-                    Console.WriteLine("=== Lista de Produtos ===");
+                    Console.WriteLine(">>>>>>>>>> Lista de Produtos >>>>>>>>>>");
                     foreach (var p in produtos)
                     {
                         Console.WriteLine($"ID: {p.Id}, Nome: {p.Nome}, Preço: {p.Preco:C}");
